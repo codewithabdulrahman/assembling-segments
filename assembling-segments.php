@@ -29,7 +29,7 @@ function assemble_segments($fragments)
         }
     }
     
-    if (strlen($segment) > 128 && strlen($segment) < 256) {
+    if (strlen($segment) > 0) {
         $segments[] = $segment;
     }
     return $segments;
